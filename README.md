@@ -8,5 +8,5 @@ Including VAE, GAN, CNN-LSTM and Unet-SelfAttention.
 
 ## CNN-LSTM model
 
-## Unet-Self Attention
+## Unet-Self Attention model
 
