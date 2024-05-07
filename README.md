@@ -1,2 +1,12 @@
 # generative_model
-Building, training and testing of two generative models, VAE and GAN.
+According to different data and different task goals, this repositories lists four generative models I built.  
+Including VAE, GAN, CNN-LSTM and Unet-SelfAttention.
+
+## VAE model
+
+## GAN model
+
+## CNN-LSTM model
+
+## Unet-Self Attention
+
