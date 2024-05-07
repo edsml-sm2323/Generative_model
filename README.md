@@ -1,4 +1,4 @@
-# generative_model
+# Generative model
 According to different data and different task goals, this repositories lists four generative models I built.  
 Including VAE, GAN, CNN-LSTM and Unet-SelfAttention.
 
