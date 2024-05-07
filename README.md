@@ -4,6 +4,15 @@ Including VAE, GAN, CNN-LSTM and Unet-SelfAttention.
 
 ## VAE model
 
+### Task
+
+### Dataset
+
+### Model structure
+
+### Important concept
+
+
 ## GAN model
 
 ## CNN-LSTM model
