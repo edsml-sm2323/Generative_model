@@ -36,6 +36,10 @@ Total loss = `Reconstruction loss` + 0.001 * `KL Divergence Loss`
 
 
 ## GAN model
+<div align="center">
+  <img src="GAN/GAN_structure.png" width="500" />
+</div> 
+
 
 ## CNN-LSTM model
 
