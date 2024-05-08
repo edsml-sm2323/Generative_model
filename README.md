@@ -84,6 +84,28 @@ Example data are in the `data` folder.
   <img src="CNN_LSTM/data/tst_000.jpg" width="200" />
 </div> 
 
+### Model structure
+#### ConvLSTMCell and ConvLSTM
+The `ConvLSTMCell` class defines a single ConvLSTM unit that combines the long-term dependency capturing capabilities of LSTMs with the spatial hierarchy of convolutional neural networks (CNN).
+
+Internal structure: Use the convolution operation to combine the input tensor and the hidden state of the previous moment, and then process it through the convolution kernel. The output is divided into four parts: input gate, forget gate, output gate and unit state. The hidden state and unit state are updated through Sigmoid and Tanh activation functions.
+
+The `ConvLSTM` class encapsulates multiple ConvLSTMCell to form a complete ConvLSTM layer.
+
+#### ImageSequencePredictor
+The `ImageSequencePredictor` class mainly consists of three parts: 
+
+Simple CNN layer: used to extract features from each frame of image. 
+
+ConvLSTM layer: receives features from CNN as input and captures the temporal dynamics of the image sequence. 
+
+Transposed convolution layer: used to upsample the output of the ConvLSTM back to the dimensions of the original image to generate a predicted image sequence. 
+
+### Important concept
+#### SSIM Loss function
+SSIM (Structural Similarity Index Measure) loss is a commonly used evaluation metric in image processing tasks, used to measure the visual similarity between two images. SSIM is a statistical measure based on three compared image pairs: brightness, contrast and structure. 
+
+When two images are identical, the value of SSIM is 1 and the SSIM loss is 0. As the difference between the two images increases, the SSIM value decreases and the corresponding SSIM loss increases. By minimizing the SSIM loss, the model is trained to generate predicted images that are more structurally similar to the target image.
 
 
 
