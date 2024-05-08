@@ -12,11 +12,12 @@ During training, the VAE aims to minimize a loss function that measures the diff
   <img src="VAE/vae_structure.png" width="500" />
 </div> 
 
-### Task
+### Task and Dataset
+Generate similar images based on the given image.
 
-### Dataset
+`Dataset`: https://www.kaggle.com/datasets/salmaneunus/railway-track-fault-detection
 
-### Model structure
+### Performance
 
 ### Important concept
 
