@@ -67,5 +67,11 @@ The training of GAN is an adversarial process in which the generator and the dis
 
 ## CNN-LSTM model
 
+
+### Task and Dataset
+First, similar pictures must be generated based on existing pictures, and secondly, pictures that may appear in the future must be generated based on time. 
+
+
+
 ## Unet-Self Attention model
 
