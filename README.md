@@ -69,7 +69,7 @@ The training of GAN is an adversarial process in which the generator and the dis
 ConvLSTM introduces convolution operations to enhance LSTM so that it can effectively process spatiotemporal sequence data. The basic idea is to combine convolutional layers and LSTM units to process both spatiotemporal and temporal information in a sequence. 
 
 <div align="center">
-  <img src="CNN_LSTM/convLSTM.png" width="200" />
+  <img src="CNN_LSTM/convLSTM.png" width="300" />
 </div> 
 
 
