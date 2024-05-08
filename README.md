@@ -66,6 +66,11 @@ The training of GAN is an adversarial process in which the generator and the dis
 
 
 ## CNN-ConvLSTM model
+ConvLSTM introduces convolution operations to enhance LSTM so that it can effectively process spatiotemporal sequence data. The basic idea is to combine convolutional layers and LSTM units to process both spatiotemporal and temporal information in a sequence. 
+
+<div align="center">
+  <img src="CNN_LSTM/convLSTM.png" width="200" />
+</div> 
 
 
 ### Task and Dataset
@@ -73,7 +78,12 @@ Given satellite images from a particular storm, the model should generate 3 futu
 
 `Dataset`: The training dataset consists of satellite images of 30 tropical storms around the Atlantic and East Pacific Oceans. Each storm has a varying number of time samples with irregular time intervals.
 
-Example data are in the `data` folder.
+Example data are in the `data` folder. 
+
+<div align="center">
+  <img src="CNN_LSTM/data/tst_000.jpg" width="200" />
+</div> 
+
 
 
 
