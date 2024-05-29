@@ -1,6 +1,6 @@
 # Generative model
 According to different data and different task goals, this repositories lists four generative models I built.  
-Including VAE, GAN, CNN-LSTM and Unet-SelfAttention.
+Including VAE, GAN, CNN-LSTM, CAE-ConvLSTM, Unet-SelfAttention.
 
 ## VAE model
 The VAE model consists of two main components: an `encoder` and a `decoder`. 
