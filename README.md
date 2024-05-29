@@ -115,6 +115,9 @@ Based on the previous ConvLSTM generative network, I modified two parts. First, 
   <img src="CAE_ConvLSTM/model.png" width="500" />
 </div> 
 
+## CAE-SelfAttention-ConvLSTM model
+Based on the previous model, I used the Self-Attention structure for secondary feature extraction while using convolution for feature extraction.
+
 ## Unet-Self Attention model
 
 
