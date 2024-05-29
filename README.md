@@ -111,6 +111,10 @@ When two images are identical, the value of SSIM is 1 and the SSIM loss is 0. As
 ## CAE-ConvLSTM model
 Based on the previous ConvLSTM generative network, I modified two parts. First, in the initial feature extraction, I replaced the simple one-layer CNN with two layers. Second, in the final method of restoring the image, I replaced the difference method with deconvolution. In general, the current model structure looks like a CAE model with ConvLSTM wrapped in the middle.
 
+<div align="center">
+  <img src="CAE_ConvLSTM/model.png" width="500" />
+</div> 
+
 ## Unet-Self Attention model
 
 
