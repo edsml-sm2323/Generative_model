@@ -108,6 +108,10 @@ SSIM (Structural Similarity Index Measure) loss is a commonly used evaluation me
 When two images are identical, the value of SSIM is 1 and the SSIM loss is 0. As the difference between the two images increases, the SSIM value decreases and the corresponding SSIM loss increases. By minimizing the SSIM loss, the model is trained to generate predicted images that are more structurally similar to the target image.
 
 
+## CAE-ConvLSTM model
+Based on the previous ConvLSTM generative network, I modified two parts. First, in the initial feature extraction, I replaced the simple one-layer CNN with two layers. Second, in the final method of restoring the image, I replaced the difference method with deconvolution. In general, the current model structure looks like a CAE model with ConvLSTM wrapped in the middle.
 
 ## Unet-Self Attention model
+
+
 
